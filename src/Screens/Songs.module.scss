@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+
+.SongsContainer{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./sarahdesign.jpg') ;
+    background-size: cover;
+    height: 720px;
+    background-blend-mode: lighten;
+    background-color: transparentize($color: #e2cdcd, $amount: 0.36);
+}
+
+
+.PageContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.MuslicList{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.OrderedList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.EachSong{
+    display: flex;
+    flex-direction: column;
+    //align-content: center;
+    flex: 1 1 0%;
+    width: 256px;
+    flex-wrap: wrap;
+}
+
+.button{
+    margin: 10px 0;
+    background-color: rgb(145, 187, 122);
+    color: #fff;
+    width: 105px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: transparent;
+    height: 35px;
+    border-radius: 12px;
+    
+    font-family: 'Arapey', cursive;
+}
+
+.buttonLike{
+    margin: 10px 0;
+    background-color: rgb(13, 139, 148);
+    color: #fff;
+    width: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: transparent;
+    height: 35px;
+    border-radius: 12px;
+}
+
+.Writing{  
+    display: flex;
+    justify-content: center;
+    //justify-content: center;
+    font-family: 'Arapey', cursive;
+    color: rgb(151, 131, 14);
+    width: 50%;
+    @media(max-width: 1200px){
+        width: 80%;
+        font-size: 25px;
+    }
+}
+
+.SubmitMessage{
+    font-size: 20px;
+    font-family: 'Arapey', cursive;
+    color: black;
+}
+
+.EnterSongs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Arapey', cursive;
+    color: rgb(151, 131, 14);
+    width: 50%;
+    @media(max-width: 1200px){
+        width: 80%;
+        font-size: 25px;
+    }
+}
+
+.input3{
+    width: 100px;
+}
+
+p{
+    font-family: 'Arapey', cursive;
+    color: rgb(151, 131, 14);
+    //width: 50%;
+    font-size: 25px;
+    @media(max-width: 1200px){
+        font-size: 18px
+    }
+}

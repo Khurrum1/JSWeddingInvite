@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey');
+
+.MenuContainer{
+    background-image: url('./sarahdesign.jpg') ;
+    background-size: cover;
+    height: 640px;
+    background-blend-mode: lighten;
+    background-color: transparentize($color: #e2cdcd, $amount: 0.36)
+}
+
+.TextArea{
+    width: 600px;
+    height: 256px;
+    background-color: transparentize($color: #e2cdcd, $amount: 0.4);
+    @media(max-width: 1200px){
+        width: 256px;
+        height: 200px; 
+    }
+}
+
+.button{
+    margin: 10px 0;
+    background-color: rgb(145, 187, 122);
+    color: #fff;
+    width: 105px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: transparent;
+    height: 35px;
+    border-radius: 12px;
+    font-family: 'Arapey', cursive;
+}
+
+.allWriting{
+    font-family: 'Arapey', cursive;
+    color: rgb(129, 117, 53);
+}
+
+.allWriting2{
+    font-family: 'Arapey', cursive;
+    color: rgb(129, 117, 53);
+    font-size: 20px;
+}
